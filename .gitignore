@@ -1,0 +1,30 @@
+# R / RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Temporary files
+*.Rout
+*.Rcheck/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Local environment
+.Renviron
+.Rprofile.local
+
+# renv local library (if enabled)
+renv/library/
+renv/staging/
+
+# Processed data (reproducible outputs)
+data/processed/*
+
+# Keep directory placeholders
+!data/processed/.gitkeep
+
+# Raw course dataset (distribution permission pending)
+data/raw/*.csv
