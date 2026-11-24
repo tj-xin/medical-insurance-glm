@@ -1,0 +1,4 @@
+"strategy","threshold","accuracy","precision","recall","specificity","f1","youden","TP","TN","FP","FN"
+"Default",0.5,1,1,1,1,1,1,17,184,0,0
+"Youden",0.537962411741422,1,1,1,1,1,1,17,184,0,0
+"Max_F1",0.537962411741422,1,1,1,1,1,1,17,184,0,0
