@@ -1,30 +1,44 @@
-# R / RStudio
-.Rhistory
+# R session files
 .RData
+.Rhistory
 .Ruserdata
+.Rapp.history
+
+# RStudio temporary files
 .Rproj.user/
 
-# Temporary files
-*.Rout
-*.Rcheck/
-*.log
-*.tmp
-.DS_Store
-Thumbs.db
-
-# Local environment
+# R environment
 .Renviron
-.Rprofile.local
-
-# renv local library (if enabled)
 renv/library/
 renv/staging/
 
-# Processed data (reproducible outputs)
-data/processed/*
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Keep directory placeholders
-!data/processed/.gitkeep
+# IDE files
+.vscode/
+.idea/
 
-# Raw course dataset (distribution permission pending)
-data/raw/*.csv
+# Temporary files
+*.tmp
+*.bak
+*.swp
+~$*
+
+# LaTeX compilation files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+
+# Python cache
+__pycache__/
+*.pyc
